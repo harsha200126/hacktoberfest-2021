@@ -5,7 +5,7 @@ pdf_reader = PyPDF2.PdfFileReader(book)
 num_pages = pdf_reader.numPages
 
 play = pyttsx3.init()
-print('Playing the Audio book')
+print('Playing the Audio book that you have selected')
 
 for num in range(0,num_pages):
     page = pdf_reader.getPage(num)
